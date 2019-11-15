@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(SDL2_App)
 
-# includes FindSDL2.cmake
+SET(SDL2_STATIC ON)
+
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
 find_package(SDL2 REQUIRED)
